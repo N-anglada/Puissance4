@@ -24,4 +24,4 @@ jobs:
     - name: Run tests
       run: |
         chmod +x vendor/bin/phpunit
-        vendor/bin/phpunit --colors=always
+        vendor/bin/phpunit --colors=always tests/
